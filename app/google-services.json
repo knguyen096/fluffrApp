@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "708218852346",
+    "project_id": "fluffrapp-edda8",
+    "storage_bucket": "fluffrapp-edda8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:708218852346:android:6008abf60b6467971b8a43",
+        "android_client_info": {
+          "package_name": "com.example.fluffrapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "708218852346-5bbqajmutnp1n4osiu47j5espr3jc5mq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.fluffrapp",
+            "certificate_hash": "b0eb2f6088d48b056f2908da0cf5102e88d4f6b1"
+          }
+        },
+        {
+          "client_id": "708218852346-6l0s54j4k51oo5qq0h7mndtl6sktch14.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPHGC1jAyxUpef0-W59BmMAfEKPlw5WHs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "708218852346-6l0s54j4k51oo5qq0h7mndtl6sktch14.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

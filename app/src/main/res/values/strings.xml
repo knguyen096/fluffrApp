@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">fluffrApp</string>
+
+    <string name='err_msg_enter_firstName'>Please enter first name</string>
+    <string name='err_msg_enter_lastName'>Please enter last name</string>
+    <string name='err_msg_enter_email'>Please enter email</string>
+    <string name='err_msg_enter_password'>Please enter password</string>
+    <string name='err_msg_confirm'>Please confirm password</string>
+    <string name='err_msg_mismatch'>Password mismatch</string>
+    <string name="register_success">You are registered successfully</string>
+    <string name="title_complete_profile">EDIT PROFILE</string>
+    <string name="read_storage_permission_denied">Denied permission for storage. Go to settings to change</string>
+    <string name="image_selection_failed">Image Failed</string>
+    <string name="err_msg_number">Enter valid mobile number</string>
+    <string name="msg_profile_update_success">Profile Updated</string>
+
+    <!--<string name="title_activity_dash_board">MainActivity</string> -->
+    <string name="title_home">Home</string>
+    <string name="title_search">Search</string>
+    <string name="title_profile">Profile</string>
+    <string name="action_chat">Chat</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_add">Create Post</string>
+    <string name="err_msg_select_image">Please select an image</string>
+    <string name="err_msg_enter_post_title">Enter a title</string>
+    <string name="err_msg_enter_post_content">Enter post content</string>
+    <string name="post_upload_success">Post uploaded successfully</string>
+    <string name="err_msg_enter_petName">Please enter pet name</string>
+    <string name="err_msg_enter_location">Please enter a location</string>
+    <string name="err_msg_enter_bio">Please enter a bio</string>
+    <string name="message_upload_success">Message sent</string>
+    <string name="err_msg_enter_like">Please enter likes</string>
+    <string name="err_msg_enter_dislike">Please enter dislikes</string>
+    <string name="pet_upload_success">Pet profile saved successfully</string>
+    <string name="err_msg_enter_age">Please enter age</string>
+
+</resources>

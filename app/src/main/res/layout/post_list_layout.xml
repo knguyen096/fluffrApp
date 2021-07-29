@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:layout_margin="8dp"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/flufprof"
+                android:id="@+id/iv_userPhoto"/>
+
+            <com.example.fluffrapp.utils.FTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_post_user"
+                android:layout_gravity="center_vertical"
+                android:textSize="16sp"
+                android:text="username"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:layout_margin="5dp"/>
+        </LinearLayout>
+
+
+        <FrameLayout
+            android:id="@+id/f1_post_image"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:id="@+id/iv_post_image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#E1E1E1"
+                android:scaleType="fitCenter" />
+
+        </FrameLayout>
+
+        <com.example.fluffrapp.utils.FTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_post_location"
+            android:layout_gravity="center_vertical"
+            android:textSize="12sp"
+            android:text="location"
+            android:textStyle="normal"
+            android:textColor="@android:color/black"/>
+
+
+        <com.example.fluffrapp.utils.FTextView
+            android:id="@+id/tv_post_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="This is my first post. Hope you likeThis is my first post. Hope you likeThis is my first post. Hope you likeThis is my first post. Hope you likeThis is my first post. Hope you likeThis is my first post. Hope you likeThis is my first post. Hope you likeThis is my first post. Hope you likeThis is my first post. Hope you like"
+            android:textColor="@android:color/black"
+            android:textSize="13sp" />
+
+       <!-- <com.example.fluffrapp.utils.FTextView
+            android:id="@+id/tv_post_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="30 min ago"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="12sp"
+            android:textStyle="bold" />-->
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>
